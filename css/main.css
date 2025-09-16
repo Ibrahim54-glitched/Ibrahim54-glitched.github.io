@@ -1301,18 +1301,19 @@ section,
 }
 
 .contact .info-item i {
-  font-size: 20px;
-  color: var(--accent-color);
-  width: 56px;
-  height: 56px;
+  font-size: 28px;
+  color: #0d6efd;
+  width: 72px;
+  height: 72px;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease-in-out;
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 40%);
-  margin-right: 15px;
+  border: 2px solid #0d6efd;
+  margin: 0 0 12px 0; /* space below, not on right */
 }
+
 
 .contact .info-item h3 {
   font-size: 18px;
