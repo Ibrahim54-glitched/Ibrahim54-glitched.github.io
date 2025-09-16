@@ -1624,6 +1624,23 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+.icon-circle{
+  width: 72px;                 /* circle size */
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #0d6efd;   /* circle border color */
+  color: #0d6efd;              /* icon color */
+  background: #fff;            /* background inside circle */
+  margin-bottom: 12px;         /* spacing to heading */
+  box-sizing: border-box;
+}
+
+/* icon size inside circle */
+.icon-circle i.bi {
+  font-size: 26px;
+  line-height: 1;
+  display: block;
 }
